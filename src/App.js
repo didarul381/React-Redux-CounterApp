@@ -1,13 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
-import Counter from './component/Counter';
-import Todos from './component/Todos';
+import Index from './routes/Index';
+// import Counter from './component/Counter';
+// import Todos from './component/Todos';
+// import CounterView from './features/CounterView';
 
 function App() {
   return (
     <div className="App">
+      <Index></Index>
       {/* <Counter></Counter> */}
-      <Todos></Todos>
+        {/* <CounterView></CounterView> */}
+         {/* <Todos></Todos> */}
     </div>
   );
 }

@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Counter from './component/Counter';
 import { Provider } from 'react-redux';
+import store from './appbook/store';
 // import store from './store';
-import store from './todosstore';
+// import store from './todosstore';
+// import store from './app/tolkitstore';
+// import bookStore from './app/bookStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
